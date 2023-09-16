@@ -22,8 +22,8 @@
 # SPDX-License-Identifier: MIT
 
 import logging
-from typing import Optional, Literal, Dict
-
+from typing import Optional, Dict
+from typing_extensions import Literal
 import torch
 import torch.nn as nn
 from dgl import DGLGraph
