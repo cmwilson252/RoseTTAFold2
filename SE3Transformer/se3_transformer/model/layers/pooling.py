@@ -21,7 +21,8 @@
 # SPDX-FileCopyrightText: Copyright (c) 2021 NVIDIA CORPORATION & AFFILIATES
 # SPDX-License-Identifier: MIT
 
-from typing import Dict, Literal
+from typing import Dict
+from typing_extensions import Literal
 
 import torch.nn as nn
 from dgl import DGLGraph
